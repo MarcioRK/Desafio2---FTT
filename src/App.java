@@ -63,7 +63,7 @@ public class App {
                     line += " - Error";
                 }
 
-                System.out.println(line);
+                //System.out.println(line);
 
                 fw.write(line);
                 fw.write(System.getProperty("line.separator"));
