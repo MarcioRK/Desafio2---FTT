@@ -4,7 +4,8 @@ import java.util.*;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        File inputFile = new File("C:/Users/MarcioRK/Documents/Codigos_Faculdade/Desafio2---FTT/Input.txt");
+        //File inputFile = new File("C:/Users/MarcioRK/Documents/Codigos_Faculdade/Desafio2---FTT/Input.txt");
+        File inputFile = new File(args[0]);
 
         //Creates the output file
         File outputFile = new File("Output.txt");
