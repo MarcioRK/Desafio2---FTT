@@ -51,8 +51,8 @@ public class App {
                     }
                 }
 
-                //If stackChar is empty and top isn't ' ', it hasn't passed throught "opening if"
-                if (stackChar.isEmpty()/* && top != ' '*/) {
+                //If stackChar is empty it hasn't passed throught "opening if"
+                if (stackChar.isEmpty()) {
                     //Boolean for remaining char
                     if (incomplete) {
                         line += " - Error";
