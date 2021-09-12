@@ -1,0 +1,14 @@
+{[]} - Ok
+([)] - Error
+[{()()}[]] - Ok
+{}()[()]] - Error
+)[{}]()( - Error
+(()[)] - Error
+<<[]()>> - Ok
+<<()[<>}> - Error
+}() - Error
+)[] - Error
+]{} - Error
+><> - Error
+()] - Error
+({[<>]}) - Ok
